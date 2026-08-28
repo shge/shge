@@ -1,26 +1,33 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**shge/shge** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=30&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=220&height=48&lines=shge" />
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=30&duration=2600&pause=900&color=0969DA&center=true&vCenter=true&width=220&height=48&lines=shge" alt="shge" />
+</picture>
 
-Here are some ideas to get you started:
+<p><b>The University of Tokyo</b> &nbsp;·&nbsp; Tokyo, Japan</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,py,rust,cpp,ros,pytorch,react,nextjs,svelte,tailwind,docker,aws,gcp,azure,cloudflare,vercel&theme=dark&perline=8" />
+  <img src="https://skillicons.dev/icons?i=ts,py,rust,cpp,ros,pytorch,react,nextjs,svelte,tailwind,docker,aws,gcp,azure,cloudflare,vercel&theme=light&perline=8" alt="TypeScript, Python, Rust, C++, ROS, PyTorch, React, Next.js, Svelte, Tailwind CSS, Docker, AWS, Google Cloud, Azure, Cloudflare, Vercel" />
+</picture>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shge&label=Profile%20views&color=0e75b6&style=flat" alt="shge" /> </p>
+<br />
+<br />
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shge" alt="shge" /></a> </p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=shge&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&border=30363D&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=8B949E&sideLabels=8B949E&dates=6E7681" />
+  <img src="https://streak-stats.demolab.com/?user=shge&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=FFFFFF&border=D1D9E0&stroke=D1D9E0&ring=0969DA&fire=0969DA&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=59636E&sideLabels=59636E&dates=59636E" alt="Contribution streak" width="495" />
+</picture>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=shge&show_icons=true&locale=en&layout=compact" alt="shge" /></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shge/shge/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/shge/shge/output/snake.svg" alt="Contribution snake" />
+</picture>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shge&show_icons=true&locale=en" alt="shge" /></p>
+<br />
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shge&" alt="shge" /></p>
+<a href="https://shge.github.io"><img src="https://img.shields.io/badge/shge.github.io-0969DA?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
+<img src="https://komarev.com/ghpvc/?username=shge&label=views&color=0969da&style=flat-square" alt="Profile views" />
+
+</div>
