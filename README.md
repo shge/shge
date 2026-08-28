@@ -8,16 +8,16 @@
 <p><b>The University of Tokyo</b> &nbsp;·&nbsp; Tokyo, Japan</p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,py,rust,cpp,ros,pytorch,react,nextjs,svelte,tailwind,docker,aws,gcp,azure,cloudflare,vercel&theme=dark&perline=8" />
-  <img src="https://skillicons.dev/icons?i=ts,py,rust,cpp,ros,pytorch,react,nextjs,svelte,tailwind,docker,aws,gcp,azure,cloudflare,vercel&theme=light&perline=8" alt="TypeScript, Python, Rust, C++, ROS, PyTorch, React, Next.js, Svelte, Tailwind CSS, Docker, AWS, Google Cloud, Azure, Cloudflare, Vercel" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cpy%2Crust%2Ccpp%2Cros%2Cpytorch%2Creact%2Cnextjs%2Csvelte%2Ctailwind%2Cdocker%2Caws%2Cgcp%2Cazure%2Ccloudflare%2Cvercel&theme=dark&perline=8" />
+  <img src="https://skillicons.dev/icons?i=ts%2Cpy%2Crust%2Ccpp%2Cros%2Cpytorch%2Creact%2Cnextjs%2Csvelte%2Ctailwind%2Cdocker%2Caws%2Cgcp%2Cazure%2Ccloudflare%2Cvercel&theme=light&perline=8" alt="TypeScript, Python, Rust, C++, ROS, PyTorch, React, Next.js, Svelte, Tailwind CSS, Docker, AWS, Google Cloud, Azure, Cloudflare, Vercel" />
 </picture>
 
 <br />
 <br />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=shge&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&border=30363D&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=8B949E&sideLabels=8B949E&dates=6E7681" />
-  <img src="https://streak-stats.demolab.com/?user=shge&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=FFFFFF&border=D1D9E0&stroke=D1D9E0&ring=0969DA&fire=0969DA&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=59636E&sideLabels=59636E&dates=59636E" alt="Contribution streak" width="495" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shge/shge/output/streak-dark.svg" />
+  <img src="https://raw.githubusercontent.com/shge/shge/output/streak.svg" alt="Contribution streak" width="495" />
 </picture>
 
 <picture>

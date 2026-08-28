@@ -1,0 +1,41 @@
+name: cards
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?palette=github-light
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Fetch contribution streak
+        env:
+          BASE: "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"
+          DARK: "background=0D1117&border=30363D&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=8B949E&sideLabels=8B949E&dates=6E7681"
+          LIGHT: "background=FFFFFF&border=D1D9E0&stroke=D1D9E0&ring=0969DA&fire=0969DA&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=59636E&sideLabels=59636E&dates=59636E"
+        run: |
+          curl -sSf --retry 5 --retry-delay 15 --max-time 90 "$BASE&$DARK" -o dist/streak-dark.svg
+          curl -sSf --retry 5 --retry-delay 15 --max-time 90 "$BASE&$LIGHT" -o dist/streak.svg
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
